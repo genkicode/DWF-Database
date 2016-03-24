@@ -1,3 +1,4 @@
-"DWF_ID","DATE_ASSIGNED","DATE_PUBLIC","REQUESTER","ASSIGNER","REPLACED_BY","VERSION","LAST_UPDATE","STATE","TITLE"
-"DWF-1900-123456","1500-12-30","1500-12-30","bob@example.org","alice@example.org","","1","","EXAMPLE","Example DWF"
-"DWF-1900-123457","1500-12-30","1500-12-30","bob@example.org","alice@example.org","DWF-1500-123456","2","1900-12-31","EXAMPLE","Example DWF"
+"DWF_ID","DATE_ASSIGNED","DATE_PUBLIC","REQUESTER","ASSIGNER","REPLACED_BY","VERSION","LAST_UPDATE","STATE","Confirmed","Vulnerability","Vendor","Product","Version","TITLE","Description"
+"DWF-1900-123456","1500-12-30","1500-12-30","bob@example.org","alice@example.org","","1","","EXAMPLE","yes","gain access","Group A","ABC 2000","FW 1.23","Example DWF - multiple vulnerabilities","Admin Password in sourcecode allows circumvention of login"
+"DWF-1900-123456","1500-12-30","1500-12-30","bob@example.org","alice@example.org","","1","","EXAMPLE","partial","gain access","Group A","ABC 2000","FW 1.23","Example DWF - multiple vulnerabilities","Firmware $version allows dos attack through memory consumption <$link>"
+"DWF-1900-123457","1500-12-30","1500-12-30","bob@example.org","alice@example.org","DWF-1500-123456","2","31.12.1900","EXAMPLE","pending","denial of service","Company","Device Pro 100 Driver","0.123","Example DWF","The driver $Name allows code execution with root priviledges"
